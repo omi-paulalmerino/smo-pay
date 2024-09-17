@@ -1,6 +1,6 @@
 # SMO Pay
 
-> Note: `Test push for Version 0.0.2`.
+> Note: `Test push for Version 0.0.4`.
 
 ## Technology
 
