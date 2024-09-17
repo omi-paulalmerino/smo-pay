@@ -14,7 +14,7 @@ jobs:
 
     environment:
       name: testpypi
-      url: https://test.pypi.org/p/smopay
+      url: https://test.pypi.org/p/smpaul
 
     permissions:
       id-token: write
