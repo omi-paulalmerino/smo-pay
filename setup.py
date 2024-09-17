@@ -1,8 +1,8 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 NAME = "smopay"
-VERSION = "0.0.3"
+VERSION = "0.0.9"
 
 REQUIRES = [
   "requests",
@@ -22,7 +22,7 @@ setup(
     author="Paul Almerino",
     author_email="paul.almerino@smsupermalls.com",
     license="BSD 2-clause",
-    packages=[NAME],
+    packages=find_packages(),
     install_requires=REQUIRES,
     classifiers=[
         "Development Status :: 1 - Planning",
