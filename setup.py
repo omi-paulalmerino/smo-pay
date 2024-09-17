@@ -2,7 +2,7 @@ from setuptools import setup
 
 
 NAME = "smopay"
-VERSION = "0.0.3"
+VERSION = "0.0.4"
 
 REQUIRES = [
   "requests",
