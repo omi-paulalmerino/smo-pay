@@ -22,9 +22,7 @@ setup(
     author="Paul Almerino",
     author_email="paul.almerino@smsupermalls.com",
     license="BSD 2-clause",
-    packages=find_packages(where=NAME),
-    package_dir={"": NAME},
-    include_package_data=True,
+    packages=find_packages(),
     install_requires=REQUIRES,
     classifiers=[
         "Development Status :: 1 - Planning",
